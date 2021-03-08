@@ -46,9 +46,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/images.jpeg
-    - screens/success.jpeg
-    - images/
+    - lib/images/
+    - lib/images/test1.jpeg
+    - lib/images/test2.jpeg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -77,3 +77,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  dependencies:
+    provider: ^3.1.0+1
+    provider: ^3.0.0+1
+  
+  Provider<int>.value(
+    value: 0,
+    child: container(),
+  )
